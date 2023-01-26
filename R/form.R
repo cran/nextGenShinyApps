@@ -121,14 +121,14 @@ textInput <- function(inputId, label, value = "", width = NULL, placeholder = NU
 #'
 #' @examples
 #'         checkboxInput("somevalue", "Some value", FALSE)
-#'         checkboxInput("somevalue", "Some value", FALSE)
+#'         checkboxInput("somevalue", "Some value", value = FALSE, inline = TRUE)
 #'         checkboxInput("somevalue", "Some value", FALSE)
 #'
 #'
 #' @export
 
 checkboxInput <- function(inputId, label, value = FALSE, width = NULL, inline = FALSE) {
-  inputId <- paste0("id", inputId, rand.num(1))
+  #inputId <-paste0("id", inputId, rand.num(1))
   value <- restoreInput(id = inputId, default = value)
   inputTag <- tags$input(id = inputId, class = "custom-control-input", type = "checkbox")
   if (!is.null(value) && value) {
