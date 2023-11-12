@@ -2,7 +2,11 @@
 #'
 #' Example shiny applications spanning aspects of the package
 #'
-#' @param example choose the example to show - "Plain","noSideBar","Card","Tab","Modal","Form","Button","Spinner","Alert","Accordion"
+#' @param example choose the example to show - "Plain","noSideBar","Plotly","Rhansometable", "Card","Tab","Modal","Form","Button","Spinner","Alert","Accordion"
+#'
+#' @section Options for example:
+#' "Plain", "noSideBar","Plotly","Rhansometable", "Card", "Tab", "Modal", "Form", "Button", "Spinner", "Alert", "Accordion"
+#'
 #'
 #' @return A rendered HTML of the user specified example file
 #' @examples
@@ -14,7 +18,7 @@
 #'
 #' @export
 
-load.example <- function(example = c("Plain", "noSideBar", "Card", "Tab", "Modal", "Form", "Button", "Spinner", "Alert", "Accordion")) {
+load.example <- function(example = c("Plain", "noSideBar","Plotly","Rhansometable", "Card", "Tab", "Modal", "Form", "Button", "Spinner", "Alert", "Accordion")) {
   example <- match.arg(example)
   loc.path <- template.loc("exp")
   loc.path.file <- paste0(loc.path, "/example.", example, ".R")

@@ -120,11 +120,6 @@ submitButton <- function(inputId, text = "Apply Changes", icon = NULL, width = N
 
 
 
-
-
-
-
-
 #' Create a master button
 #'
 #' A master button creator
@@ -154,7 +149,6 @@ submitButton <- function(inputId, text = "Apply Changes", icon = NULL, width = N
 #' }
 #' @export
 #'
-
 
 masterButton <- function(inputId, text = "Text", icon = NULL, width = NULL, size = c("m", "xs", "s", "l", "xl"), style = c("default", "pill", "round", "clean"), bg.type = c("default", "primary", "secondary", "info", "success", "danger", "warning"), outline = FALSE, extraClass = NULL, ...) {
   bg.type <- match.arg(bg.type)

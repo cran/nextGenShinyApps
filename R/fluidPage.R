@@ -52,7 +52,6 @@ fluidPage <- function(..., id = NULL, header = NULL, sidebar = NULL, class = NUL
       id = id, class = paste0("app-container app-theme-gray ", class, " ", color),
       verify_fa = FALSE,
       rmarkdown::html_dependency_font_awesome(),
-      cssjsinclude(template, color),
       # modal
       if(!is.null(modal.header.links))
       modal.header(modal.header.links),
@@ -64,8 +63,31 @@ fluidPage <- function(..., id = NULL, header = NULL, sidebar = NULL, class = NUL
           class = "page-inner",
           sidebar,
           dashboardBody(header, ...)
-        )
+        ),
+      cssjsinclude(template, color)
       )
     )
   )
 }
+
+
+#' A wrapper for panels
+#'
+#' Create a wrapper div for pannels
+#'
+#' @param ... div contents
+#' @param bg background color of the wrapper
+#'
+#' @return a container for other containers
+#'
+#' @examples
+#' wrapper(altPanel("hello"),mainPanel("test"))
+#' wrapper(mainPanel("hello"),shiny::column(width=2,"test"))
+#' @export
+#'
+
+wrapper <- function(..., bg = c("default", "primary", "secondary", "warning", "info", "danger", "success")) {
+  bg <- match.arg(bg)
+  htmltools::div(class = "row dwrapper", class = paste0("bg-", bg), ...)
+}
+

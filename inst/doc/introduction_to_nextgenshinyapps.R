@@ -40,9 +40,8 @@ knitr::opts_chunk$set(
 #  
 #    # Body: Insert anything into the body--------------------
 #    tags$h2("Basic Moveable Advanced Card"),
-#    row(
-#      column(
-#        width = 8,
+#    wrapper(
+#      altPanel(
 #        card(
 #          title = "Standard card with text and a slider",
 #          # card body content

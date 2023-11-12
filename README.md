@@ -1,6 +1,12 @@
-# nextGenShinyApps: Tools in R for building the next generation of Shiny applications and responsive dashboards <img src="https://coursewhiz.org/shinyappsampleso/hex-nextGenShinyApps.png" width="300" align="right" >
+<img src="https://nextgenshinyapps.obi.obianom.com/adslogo2.png" width = "500">
+
+# nextGenShinyApps: Craft Exceptional R Shiny Dashboards with Novel Responsive Tools <img src="https://coursewhiz.org/shinyappsampleso/hex-nextGenShinyApps.png" width="200" align="right" >
 ## Official website: https://nextgenshinyapps.obi.obianom.com
 ### Other packages required for nextGenShinyApps: https://depends.rpkg.net/package/nextGenShinyApps
+
+### Get started with sample R codes: <br>https://github.com/oobianom/nextGenShinyApps-Boilerplate-BlankApp
+
+__Please note that the nextGenShinyApps 1.7 is NOW compatible with the htmlwidgets,rhandsontable and plotly packages. This is being worked on, but there is not currently a completion date.__
 
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/nextGenShinyApps)](https://cran.r-project.org/package=nextGenShinyApps)
 
@@ -20,7 +26,9 @@ The nextGenShinyApps package is available on CRAN and can be installed as shown 
 
 `library(nextGenShinyApps)`
 
-### Get started with some of the examples
+
+
+### Get started by viewing some of the examples
 
 `load.example("Card")`
 
