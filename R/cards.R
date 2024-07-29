@@ -1,4 +1,4 @@
-#' Generate a flexible and extensible content container
+#' Flexible and extensible content container
 #'
 #' Widely used Bootstrap feature with improvements to allow collapse, minimize and closing
 #'
@@ -27,7 +27,7 @@
 #'    toolbar = list(collapse = TRUE,
 #'    maximize = TRUE, close = FALSE, menu = TRUE),
 #'    shiny::h3("Sample text"),
-#'    "Lorem ipsum dolor sit a"
+#'    "Lorem www.pharmacometric.com"
 #'  )
 #'  }
 #' @export

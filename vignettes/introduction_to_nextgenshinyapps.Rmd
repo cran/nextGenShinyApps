@@ -1,10 +1,10 @@
 ---
-title: "The nextGenShinyApps: Advanced R Tools for Modern Shiny Applications and Dashboards"
+title: "The nextGenShinyApps 2.1: Advanced R Tools for Modern Shiny Applications and Dashboards"
 author: "Obinna N. Obianom"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{The nextGenShinyApps: Advanced R Tools for Modern Shiny Applications and Dashboards}
+  %\VignetteIndexEntry{The nextGenShinyApps 2.1: Advanced R Tools for Modern Shiny Applications and Dashboards}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

@@ -28,7 +28,7 @@ dashboardBody(
     left = "Sample nextGenShinyApps Title",
     right = shiny::icon("user")
   ),
-  "sample text for main body"
+  "obi's preferred main body"
 )
 }
 

@@ -1,12 +1,12 @@
-b5b5b3ad3fe1f3e651971fee210ebb7c *DESCRIPTION
+2085201e9aeaa35653ca934e014cee2b *DESCRIPTION
 8ab64ed62f653af571a1146937596c7b *LICENSE
 9be707e267f7298dc0c644b2c5bfa387 *NAMESPACE
-4b4b5a5af836497852da6c6337d71698 *NEWS.md
+cb8758f3f0938b7e9161bbe7d33cf4dd *NEWS.md
 8667ed7793151e1cb55d532aba4ee8c3 *R/accordions.R
 c36bac5d65120f64f9c2e8d3f2936810 *R/alerts.R
-1a2789d16e77b6960ceeef860da2a541 *R/body.R
+5e0a9faa6e93d5ba76cda50f0c19f576 *R/body.R
 e6da4a7fec043ca9fa1de024a8ee3a72 *R/button.R
-e5b5b8e0a592ae1c492d1e8bf749d921 *R/cards.R
+4b4f9f74dc4434c2fa46120da85df97a *R/cards.R
 cf8e0b6ea17f5c0885cf39f026f6eca4 *R/exampleloader.R
 834a254be482fae0d96f79f8a27fa462 *R/fluidPage.R
 faf6f3406a34c8b9355f506b60579da9 *R/form.R
@@ -17,8 +17,8 @@ f1a73b49e330b7380383486516d74999 *R/header.R
 67272d59f75df3ff39151fecacd89045 *R/spinner.R
 4cf434a3039ccb75756f1edc0ab9c075 *R/tabs.R
 56d1511edb6422b01198483b4f0a009b *R/zzz.R
-baf68f5c90a64a718e51c83d9b7598ef *README.md
-1320712ec2a03e07dabda6f9569ea6f5 *build/vignette.rds
+ba9c90256d1ae10c22ed7b0e81240cfa *README.md
+8b84ffcacec3ebf37be478a285d88c30 *build/vignette.rds
 0b99460996e2cceae7cb1dffb7fd8a64 *inst/core/cust-theme-1.css
 d1d73257b038ff6c709d6bb0ff04b1a8 *inst/core/cust-theme-10.css
 c2c239ea61c24496d2560dc2d2cfdd95 *inst/core/cust-theme-11.css
@@ -35,8 +35,8 @@ a4880d6f9440e861ee4e127dc5ebfd4f *inst/core/cust-theme-6.css
 c94b99c466afbdaeee0696edda725c2e *inst/core/nextgenshinyapps.css
 96b35558e72904a866e9aadea39e5dfe *inst/core/nextgenshinyapps.js
 9a5cd556f3c12a6d0a8c23b8b05f3db3 *inst/doc/introduction_to_nextgenshinyapps.R
-75ea3d6264252ebbe3c149ddcb0e67c0 *inst/doc/introduction_to_nextgenshinyapps.Rmd
-9465a04644b897f7a565fb4d4dc25606 *inst/doc/introduction_to_nextgenshinyapps.html
+37685cd6dcaf4923c9ab389bf6a9e9ca *inst/doc/introduction_to_nextgenshinyapps.Rmd
+9c47ec82bd6e758256c5a14c4cce621a *inst/doc/introduction_to_nextgenshinyapps.html
 d372bb24c0b39f5a44b2d52ec23a047b *inst/exp/example.Accordion.R
 c7e8b4eada3add65dcbc4c99dc1d0de4 *inst/exp/example.Alert.R
 c6466db6b3d7732d4ce145c60b082d5e *inst/exp/example.Button.R
@@ -54,10 +54,10 @@ a90792ba4da83559f6372dd79e746918 *man/accordion.Rd
 3e0f5e34a20003ed9414c8d118ba3a8c *man/actionButton.Rd
 bd84158b2ce66047bac88f73ced72eec *man/alert.Rd
 d21703a95a23b441ab3d94d35c232301 *man/altPanel.Rd
-6f24d01108c10beedc61cf161b08f0d1 *man/card.Rd
+5dac424c92ecf390e293166f041f5f7c *man/card.Rd
 d3339fd3c339c1c5a7f22b651b9b3360 *man/checkboxInput.Rd
 c5b060717084d49057888bcf502fbc99 *man/cssjsinclude.Rd
-7226d2838f960af7156b196927484f72 *man/dashboardBody.Rd
+796ab87b4e9fb3ab7863e808edf56150 *man/dashboardBody.Rd
 d83c6ab3b36f28221d9252b4c0bb3117 *man/fluidPage.Rd
 24206d16a94929c3f37c2b5f1e2c68ee *man/load.example.Rd
 05d1b065435ebd1c9a42d0245708a074 *man/mainPanel.Rd
@@ -81,4 +81,4 @@ e5e7a35d5c4eab7b58999a896c1de502 *man/template.loc.Rd
 583d440e6b3b0714a59ed402185f3eaa *man/textInput.Rd
 5d3e06baeab9f2a8025f6e371760c143 *man/titlePanel.Rd
 d612794c98054da18253dd085e0d215f *man/wrapper.Rd
-75ea3d6264252ebbe3c149ddcb0e67c0 *vignettes/introduction_to_nextgenshinyapps.Rmd
+37685cd6dcaf4923c9ab389bf6a9e9ca *vignettes/introduction_to_nextgenshinyapps.Rmd

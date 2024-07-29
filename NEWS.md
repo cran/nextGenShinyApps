@@ -1,10 +1,17 @@
-# nextGenShinyApps 2.1
+# nextGenShinyApps 2.2
 
 ## Planned Features
 
 
  - [ ] paginatorBtn function
  - [ ] Better integration TBD
+
+# nextGenShinyApps 2.1
+
+## Planned Features
+
+
+ - Dependency fix
 
 # nextGenShinyApps 2.0
 

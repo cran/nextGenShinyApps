@@ -2,7 +2,7 @@
 % Please edit documentation in R/cards.R
 \name{card}
 \alias{card}
-\title{Generate a flexible and extensible content container}
+\title{Flexible and extensible content container}
 \usage{
 card(
   ...,
@@ -60,7 +60,7 @@ if (interactive()) {
    toolbar = list(collapse = TRUE,
    maximize = TRUE, close = FALSE, menu = TRUE),
    shiny::h3("Sample text"),
-   "Lorem ipsum dolor sit a"
+   "Lorem www.pharmacometric.com"
  )
  }
 }
